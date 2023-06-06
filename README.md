@@ -1,4 +1,10 @@
-This is a fork of [a great plugin by katzer](https://github.com/katzer/cordova-plugin-background-mode/). It aims to keep up-to-date with Android changes while also providing more features.
+This is a fork of (https://bitbucket.org/TheBosZ/cordova-plugin-run-in-background). It aims to keep up-to-date with Android and iOS changes while also providing more features.
+
+Funcionando com Android SDK > 31 !!!
+Funcionando com iOS
+
+Working Android SDK > 31!!!!
+
 
 Cordova Background Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-background-mode.svg)](http://badge.fury.io/js/cordova-plugin-background-mode) [![Build Status](https://travis-ci.org/katzer/cordova-plugin-background-mode.svg?branch=master)](https://travis-ci.org/katzer/cordova-plugin-background-mode) [![codebeat badge](https://codebeat.co/badges/49709283-b313-4ced-8630-f520baaec7b5)](https://codebeat.co/projects/github-com-katzer-cordova-plugin-background-mode)
 =========================
@@ -15,10 +21,8 @@ Use the plugin by your own risk!
 
 
 ## Supported Platforms
-- __Android/Amazon FireOS__
-- __Browser__
+- __Android
 - __iOS__
-- __Windows__ _(see #222)_
 
 
 ## Installation
@@ -26,7 +30,7 @@ The plugin can be installed via [Cordova-CLI][CLI] and will be publicly availabl
 
 Execute from the projects root folder:
 
-    $ cordova plugin add https://bitbucket.org/TheBosZ/cordova-plugin-run-in-background
+    $ cordova plugin add https://github.com/geniltodallo/cordova-plugin-background.git
 
 
 ## Usage
@@ -220,15 +224,11 @@ __Note:__ Calling the method led to increased resource and power consumption.
 
 This software is released under the [Apache 2.0 License][apache2_license].
 
-Made with :yum: from Leipzig
-
-? 2017 [appPlant GmbH][appplant] & [meshfields][meshfields]
-
 
 [cordova]: https://cordova.apache.org
 [CLI]: http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface
 [NPM]: ???
 [changelog]: CHANGELOG.md
 [apache2_license]: http://opensource.org/licenses/Apache-2.0
-[appplant]: http://appplant.de
-[meshfields]: http://meshfields.de
+[dallosistemas]: https://www.dallosistemas.com.br
+
